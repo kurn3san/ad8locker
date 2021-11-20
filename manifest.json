@@ -1,14 +1,15 @@
 {
-    "name":"Koro Ad Blocker",
-    "version":"1.0",
-    "description":"made from a tutorial as a first step",
-    "premissions":["webRequest","webRequestBlocking","<all_urls>"],
-    "background":{
-        "scripts":["background.js"]
-    },"icons":{
-        "16":"icons/logo_16x16.png",
-        "48":"icons/logo_48x48.png",
-        "128":"icons/logo_128x128.png"
+    "name": "Koro Ad Blocker",
+    "version": "1.0",
+    "description": "made from a Tutorial as a first step",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
     },
-    "manifest_version":2
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    },
+    "manifest_version": 2
 }
