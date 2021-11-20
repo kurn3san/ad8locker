@@ -40,7 +40,7 @@ const defaultFilters = [
     "*://*.emetriq.com/*",
     "*://*.epsilon.com/*",
     "*://*.emerse.ai/*",
-    "*://*eyeota.com/*",
+    "*://*.eyeota.com/*",
     "*://*.flashtalking.com/*",
     "*://*.gumgum.com/*",
     "*://*.hybridtheory.com/*",
@@ -185,8 +185,9 @@ const defaultFilters = [
     "*://*.yieldlab.de/*",
     "*://*.zemanta.com/*",
     "*://*.zetaglobal.com/*",
-    "*://*.ziffdavis.com/*",
+    "*://*.ziffdavis.com/*"
 ]
+
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) { return { cancel: true }},
     { urls: defaultFilters },
