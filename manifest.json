@@ -1,6 +1,6 @@
 {
     "name": "Koro Ad Blocker",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "made from a Tutorial as a first step",
     "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
     "background": {
